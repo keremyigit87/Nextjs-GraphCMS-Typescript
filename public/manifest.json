@@ -3,7 +3,7 @@
     "name": "MyWebsite",
     "lang": "en",
     "description": "My Website personal Description",
-    "start_url": "http://localhost:3000/",
+    "start_url": "https://nextjs-graph-cms-typescript-3bqidr4l3.vercel.app",
     "background_color": "#ffffff",
     "theme_color": "#000000",
     "dir": "ltr",
