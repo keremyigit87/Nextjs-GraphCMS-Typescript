@@ -8,7 +8,7 @@
     "theme_color": "#000000",
     "dir": "ltr",
     "display": "standalone",
-    "orientation": "any",
+    "orientation": "standalone",
     "icons": [
     {
         "src": "/icons/maskable_icon.png",
@@ -87,5 +87,11 @@
       "sizes": "16x16"
      }
     ],
-    "prefer_related_applications": "true"
+    "prefer_related_applications": "true",
+    "related_applications": [
+        {
+          "platform": "play",
+          "id": "com.google.samples.apps.iosched"
+        }
+      ]
    }
