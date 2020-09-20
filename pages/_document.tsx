@@ -12,6 +12,9 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="manifest" href="manifest.json" />
+          <meta name="theme-color" content="#000000"/>
+          <link rel="apple-touch-icon" href="/icons/android-icon-192x192.png" />
+          <meta name="robots" content="noindex"/>
         </Head>
         <body>
           <Main />
