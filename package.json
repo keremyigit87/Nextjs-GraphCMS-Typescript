@@ -21,6 +21,7 @@
     "typescript": "^4.0.2"
   },
   "devDependencies": {
+    "@types/react": "^16.9.49",
     "next-sitemap": "^1.2.4"
   }
 }
