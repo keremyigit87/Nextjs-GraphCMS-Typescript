@@ -2,7 +2,7 @@ import { GraphQLClient } from "graphql-request";
 import Link from "next/link";
 import { NextSeo } from 'next-seo';
 
-const graphcms = new GraphQLClient(process.env.GRAPHQL_URL_ENDPOINT);
+const graphcms = new GraphQLClient('https://api-eu-central-1.graphcms.com/v2/ckf9qiikt05f801wf5ksydmqz/master');
 
 export async function getStaticProps({ params }) {
     const { post } = await graphcms.request(
