@@ -2,3 +2,9 @@
 @import "./helpers/mixins";
 @import "./helpers/reset";
 
+.grid-test [class*='col-'] .box{
+        height:400px;
+        background:red;
+        opacity: .4;
+        margin-bottom: 16px;
+}

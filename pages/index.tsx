@@ -1,12 +1,23 @@
 
 export default function Home({ }) {
   return (
-    <div className="container">
-      <div className="row">
-        <div className="offset-4 col-4">
-            <h1>Homepage</h1>
+    <main className="grid-test">
+      <div className="container">
+        <div className="row">
+          <div className="col-6 col-xs-5 col-sm-4 col-md-3 col-lg-2 col-xl-1"><div className="box"></div></div>
+          <div className="col-6 col-xs-5 col-sm-4 col-md-3 col-lg-2 col-xl-1"><div className="box"></div></div>
+          <div className="col-6 col-xs-5 col-sm-4 col-md-3 col-lg-2 col-xl-1"><div className="box"></div></div>
+          <div className="col-6 col-xs-5 col-sm-4 col-md-3 col-lg-2 col-xl-1"><div className="box"></div></div>
+          <div className="col-6 col-xs-5 col-sm-4 col-md-3 col-lg-2 col-xl-1"><div className="box"></div></div>
+          <div className="col-6 col-xs-5 col-sm-4 col-md-3 col-lg-2 col-xl-1"><div className="box"></div></div>
+          <div className="col-6 col-xs-5 col-sm-4 col-md-3 col-lg-2 col-xl-1"><div className="box"></div></div>
+          <div className="col-6 col-xs-5 col-sm-4 col-md-3 col-lg-2 col-xl-1"><div className="box"></div></div>
+          <div className="col-6 col-xs-5 col-sm-4 col-md-3 col-lg-2 col-xl-1"><div className="box"></div></div>
+          <div className="col-6 col-xs-5 col-sm-4 col-md-3 col-lg-2 col-xl-1"><div className="box"></div></div>
+          <div className="col-6 col-xs-5 col-sm-4 col-md-3 col-lg-2 col-xl-1"><div className="box"></div></div>
+          <div className="col-6 col-xs-5 col-sm-4 col-md-3 col-lg-2 col-xl-1"><div className="box"></div></div>
         </div>
       </div>
-    </div>
+    </main>
   )
 }
