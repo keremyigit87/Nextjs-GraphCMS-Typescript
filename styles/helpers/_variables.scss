@@ -1,0 +1,143 @@
+// 
+// ===========     COLOR SYSTEM      ===============
+// 
+
+$accent-color:        #D60C51 !default;
+
+
+
+
+
+// 
+// ===========     TYPOGRAPHY SYSTEM      ===============
+//
+
+$font-family-base:            Arial, Helvetica, sans-serif !default;
+$font-size-base:              1rem !default; 
+$font-weight-base:            400 !default;
+$line-height-base:            1.5 !default;
+$letter-spacing-base:         1 !default;
+
+
+
+
+
+
+// 
+// ===========     SPACES SYSTEM      ===============
+// 
+
+$spacer: 2px !default;
+$spacers: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge(
+  (
+    0: 0,
+    1: $spacer,
+    2: ($spacer + 2),
+    3: ($spacer + 6),
+    4: ($spacer + 10),
+    5: ($spacer + 14),
+    6: ($spacer + 22),
+    7: ($spacer + 30),
+    8: ($spacer + 46),
+    9: ($spacer + 62),
+    10: ($spacer + 94),
+    11: ($spacer + 126),
+    12: ($spacer + 190),
+    13: ($spacer + 286),
+  ),
+  $spacers
+);
+
+$s-0:      0px;
+$s-2:      2px;
+$s-4:      4px;
+$s-8:      8px;
+$s-12:     12px;
+$s-16:     16px;
+$s-24:     24px;
+$s-32:     32px;
+$s-48:     48px;
+$s-64:     64px;
+$s-96:     96px;
+$s-128:    128px;
+$s-192:    192px;
+$s-288:    288px;
+
+// This variable affects the `.h-*` and `.w-*` classes.
+$sizes: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$sizes: map-merge(
+  (
+    25: 25%,
+    50: 50%,
+    75: 75%,
+    100: 100%,
+    auto: auto
+  ),
+  $sizes
+);
+
+$container-spacing: 68px;
+
+
+// 
+// ===========     GRID SYSTEM      ===============
+// 
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+  x:0,
+  xs: 768px,
+  sm: 996px,
+  md: 1366px,
+  lg: 1440px,
+  xl: 1900px,
+) !default;
+
+
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: 996px,
+  md: 1024px,
+  lg: 1024px,
+  xl: 1024px
+) !default;
+
+
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns:                12 !default;
+$grid-gutter-width:           16px !default;
+$grid-row-columns:            12 !default;
+
+
+
+// 
+// ===========     Z-INDEX SYSTEM      ===============
+// 
+//
+// Warning: Avoid customizing these values. They're used for a bird's eye view
+// of components dependent on the z-axis and are designed to all work together.
+
+$zindex-dropdown:                   1000 !default;
+$zindex-sticky:                     1020 !default;
+$zindex-fixed:                      1030 !default;
+$zindex-modal-backdrop:             1040 !default;
+$zindex-modal-ovarlay:              1050 !default;
+$zindex-modal:                      1060 !default;
+$zindex-popover:                    1070 !default;
+$zindex-tooltip:                    1080 !default;
+
+

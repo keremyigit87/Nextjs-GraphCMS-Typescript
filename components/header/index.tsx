@@ -1,6 +1,11 @@
 import Link from 'next/link'
+import { useContext } from 'react';
+import StoreContext from '../../context/store';
+
 
 export default function Header(){
+    const store = useContext(StoreContext);
+    console.log('This state call from header')
     return(
         <header>
             <ul>
