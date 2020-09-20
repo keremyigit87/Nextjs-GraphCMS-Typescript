@@ -8,6 +8,7 @@ export default function Header(){
     console.log('This state call from header')
     return(
         <header>
+            <p>this is header</p>
             <ul>
                 <Link href="/"><li>Homepage</li></Link>
                 <Link href="/about"><li>About</li></Link>
