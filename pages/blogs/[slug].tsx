@@ -99,7 +99,7 @@ export async function getStaticProps({ params }) {
     ],
     }
 }
-  export default ({ post }) => {
+  export default function BlogDetail({ post }) {
     return (
       <>
       <NextSeo {...SEO}/>

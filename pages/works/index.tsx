@@ -24,7 +24,7 @@ export async function getStaticProps() {
   };
 }
 
-export default function workList({works}) {
+export default function WorkList({works}) {
   return (
       <>
         <NextSeo

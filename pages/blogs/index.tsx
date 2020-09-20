@@ -34,7 +34,7 @@ export async function getStaticProps() {
   };
 }
 
-const PostList = ({posts}) => {
+export default function BlogList({posts}){
   return(
     <>
     <NextSeo
@@ -57,5 +57,3 @@ const PostList = ({posts}) => {
     </>
   )
 }
-
-export default PostList;

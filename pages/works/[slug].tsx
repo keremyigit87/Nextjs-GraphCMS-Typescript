@@ -79,7 +79,7 @@ const SEO = {
     }
 }
 
-export default ({ work }) => {
+export default function WorkDetail ({ work }) {
     return (
         <>
         <NextSeo {...SEO}/>
